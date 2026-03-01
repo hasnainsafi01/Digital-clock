@@ -1,0 +1,19 @@
+#clock{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-size: 6rem;
+    color: white;
+}
+body{
+    background-color: rgba(31, 8, 117, 0.692);
+}
+@media(max-width:600px){
+    #clock{
+        font-size: 4rem;
+        color: rgb(223, 232, 240);
+        
+    }
+}
